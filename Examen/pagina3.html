@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Página 3 | Sin Framework</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1, maximun-scale=1">
+<meta name="description" content="Examen unidad 2">
+<meta name="author" content="Tristán N. Huerta">
+<meta name="keywords" content="Programación Web">
+</head>
+<style>
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #black;
+  padding: 1px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  text-align: center;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+ input {
+     width: 250px;
+     padding: 5px;
+     border-radius: 5px;
+   }
+   select {
+     width: 250px;
+     padding: 5px;
+     border-radius: 5px;
+   }
+</style>
+<body style="font-family: Arial, Helvetica, sans-serif;">
+
+<table style="width:100%">
+  <thead>
+    <tr><!--------------------------------------------------------------------------------------0---->
+      <th scope="col">
+        <a aria-current="page" href="pagina1.html">Bootstrap</a>
+      </th>
+      <th scope="col">
+        <a href="pagina2.html">Material Design</a>
+      </th>
+      <th scope="col">
+        <a href="pagina3.html">Sin Framework</a>
+      </th>
+    </tr><!--------------------------------------------------------------------------------------0---->
+  </thead>
+<!------------------------------------------------------------------------------------------>
+<table style="width:100%">
+  <br>
+  <thead>
+    <tr><!--------------------------------------------------------------------------------------1---->
+      <th scope="col">
+        <span style="background: orange; border-radius: 5px;">⠀Colores⠀</span>
+        <br><br>
+        <span style="color: #4CAF50;">Verde</span>
+        <br>
+        <span style="color: black;">Negro</span>
+        <br>
+        <span style="color: orange;">Naranja</span>
+        <br>
+        <span style="color: grey;">Gris/Secondary</span>
+      </th>
+      <th scope="col">
+        <div style="text-align: center;">
+          <span style="background: orange; border-radius: 5px;">⠀Tema de diseño⠀</span>
+        </div>
+        <div>
+          <h4>Descripción:</h4>
+        </div>
+        <div>
+          <h5>Todo este diseño es echo sin ayuda de un framework<br>
+          por ello quiza no sea se ve muy bien comparado con otros diseños</h5>
+        </div>
+      </th>
+      <th scope="col">
+        <div style="text-align: center;">
+          <span style="background: orange; border-radius: 5px;">⠀Unidad II - Marzo 2021⠀</span>
+        </div>
+        <div>
+          <h4>Descripción:</h4>
+        </div>
+        <div>
+          <h5>Programación web<br> Profesor: Eduardo Flores Gallegos</h5>
+        </div>
+      </th>
+    </tr><!--------------------------------------------------------------------------------------1---->
+  </thead>
+  <tbody>
+    <tr><!--------------------------------------------------------------------------------------2---->
+      <th scope="row" colspan="3">
+        <table style="margin: 0 auto;">
+          <tr>
+            <td>
+              <img src="imagen/profile.jpg" width="150px" height="150px">
+            </td>
+            <td>
+              <h3>Tristán Nathaniel Huerta Valdivia</h3>
+                  Estudiante de Ing. tecnologías de la información y la comunicación
+                  <br><small>Programación web</small>
+            </td>
+          </tr>
+        </table>
+      </th>
+    </tr><!--------------------------------------------------------------------------------------2---->
+    <tr>
+      <th scope="row" colspan="3">
+        <div>
+          <!--------------------------------------------------------------------------------------3---->
+          <div>
+    <br>
+      <form name="Enviarr" action="pagina1.html" method="get">
+
+        <label for="nombre">Nombre</label><br>
+        <input  type="text" name="nombre" value="" placeholder="Solo letras" minlength="8" maxlength="32" pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,48}" required>
+        <br>
+        <label for="nombre">Apellido</label><br>
+        <input  type="text" name="apellido" value="" placeholder="Solo letras" minlength="8" maxlength="32" pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,48}" required>
+        <br>
+        <label for="nombre">Usuario</label><br>
+        <input type="text" id="inlineFormInputGroup" minlength="8" maxlength="32">
+          
+        <br><br>
+          <label for="vehicle1"> Alumno activo</label><br>
+          <input type="checkbox" name="alumno-activo" value="Si" required><br>
+        
+        <br>
+        <label for="nombre">Numero de control</label><br>
+        <input  type="text" name="numero-de-control" value="" minlength="8" maxlength="32" required>
+        <br>
+        
+          <div>
+            <label for="exampleInputEmail1">Email</label><br>
+            <input type="email" id="exampleInputEmail1" aria-describedby="emailHelp" minlength="8" maxlength="32">
+          </div>
+        
+        <label for="contraseña">Password</label><br>
+        <input type="password" name="password" value="" required minlength="8" maxlength="32">
+        <br>
+        <label for="nombre">Address</label><br>
+        <input  type="text" name="address" value="" minlength="4" maxlength="40" size="40" required>
+        <br>
+        <label for="nombre">Zip</label><br>
+        <input  type="number" name="zip" value="" minlength="4" maxlength="32" required>
+        <br>
+        <label for="nombre">Ciudad</label><br>
+        <input  type="text" name="ciudad" value="" placeholder="Solo letras" minlength="4" pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,48}" required>
+        <br>
+                <label for="nombre">State</label><br>
+        <div>
+          <select id="inputGroupSelect01">
+            <option value="1">Aguascalientes</option>
+            <option value="2">Baja California</option>
+            <option value="3">Baja California Sur</option>
+            <option value="4">Campeche</option>
+            <option value="5">Coahuila</option>
+            <option value="6">Colima</option>
+            <option value="7">Chiapas</option>
+            <option value="8">Chihuahua</option>
+            <option value="9">Guanajuato</option>
+            <option value="10">Guerrero</option>
+            <option value="11">Hidalgo</option>
+            <option value="12">Jalisco</option>
+            <option value="13">México</option>
+            <option value="14">Michoacán</option>
+            <option value="15">Morelos</option>
+            <option value="16">Nayarit</option>
+            <option value="17">Nuevo León</option>
+            <option value="18">Oaxaca</option>
+            <option value="19">Puebla</option>
+            <option value="20">Querétaro</option>
+            <option value="21">Quintana Roo</option>
+            <option value="22">San Luis Potosí</option>
+            <option value="23">Sinaloa</option>
+            <option value="24">Sonora</option>
+            <option value="25">Tabasco</option>
+            <option value="26">Tamaulipas</option>
+            <option value="27">Tlaxcala</option>
+            <option value="28">Veracruz</option>
+            <option value="29">Yucatán</option>
+            <option value="30">Zacatecas</option>
+            <option value="31">Durango</option>
+            <option value="32">Distrito Federal</option>
+          </select>
+        </div>
+        
+        <label for="nombre">Color favorito</label><br>
+        <input type="color" name="color-favorito" value="" required>
+        <br><br>
+        <label for="nombre">Fecha de nacimiento</label><br>
+        <input  type="date" name="fecha-de-nacimiento" value="" required>
+      
+          <div>
+            <div>
+              <div>
+                <br><input type="checkbox" id="autoSizingCheck2" required>
+                <label for="autoSizingCheck2">Acepto Terminos y Condiciónes</label>
+              </div>
+            </div>
+          </div>
+      
+        <br>
+        <div style="text-align: center;">
+        <input class="button" type="submit" onclick="prueba()" name="" value="Enviar" align="center" >
+        </div>
+        </form>
+      
+    </div>
+  </div>
+</div>
+          <!--------------------------------------------------------------------------------------3---->
+        <br></div>
+      </th>
+    </tr>
+    <tr>
+      <th scope="row" colspan="3">
+        <div style="text-align: center;" >
+          <div class="container" style="color: white; background: black;">
+          <div>Instituto Tecnológico de Pabellón de Arteaga</div>
+          <div>Todos los derechos reservados</div>
+         </div>
+        </div>
+      </th>
+    </tr>
+  </tbody>
+</table>
+<!------------------------------------------------------------------------------------------>
+<script type="text/javascript">
+  function prueba(){
+    //alert("Hola mundo");
+    //document.Enviarr.submit();
+  }
+
+</script>
+</body>
+</html>

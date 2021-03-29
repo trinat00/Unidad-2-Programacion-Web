@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Página 2 | Material Design</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1, maximun-scale=1">
+<meta name="description" content="Examen unidad 2">
+<meta name="author" content="Tristán N. Huerta">
+<meta name="keywords" content="Programación Web">
+<link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+<script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+<table style="width:100%">
+  <thead>
+    <tr><!--------------------------------------------------------------------------------------0---->
+      <th scope="col">
+        <a class="nav-link active" aria-current="page" href="pagina1.html">Bootstrap</a>
+      </th>
+      <th scope="col">
+        <a class="nav-link" href="pagina2.html">Material Design</a>
+      </th>
+      <th scope="col">
+        <a class="nav-link" href="pagina3.html">Sin Framework</a>
+      </th>
+    </tr><!--------------------------------------------------------------------------------------0---->
+  </thead>
+<!------------------------------------------------------------------------------------------>
+<table style="width:100%">
+  <thead>
+    <tr><!--------------------------------------------------------------------------------------1---->
+      <th scope="col">
+        <span class="mdc-button--unelevated">Colores</span>
+        <br><br>
+        <span style="color: #6200ee;">Violeta</span>
+        <br>
+        <span style="color: black;">Negro</span>
+        <br>
+        <span style="color: grey;">Secondary</span>
+      </th>
+      <th scope="col">
+        <div style="text-align: center;">
+          <span class="mdc-button--unelevated">Tema de diseño</span>
+        </div>
+        <div>
+          <h4>Descripción:</h4>
+        </div>
+        <div>
+          <h5>Todo este diseño es parte de Material Design Mar-2021<br>
+          por ello quiza no coincidan con versiónes mas recientes</h5>
+        </div>
+      </th>
+      <th scope="col">
+        <div style="text-align: center;">
+          <span class="mdc-button--unelevated">Unidad II - Marzo 2021</span>
+        </div>
+        <div>
+          <h4>Descripción:</h4>
+        </div>
+        <div>
+          <h5>Programación web<br> Profesor: Eduardo Flores Gallegos</h5>
+        </div>
+      </th>
+    </tr><!--------------------------------------------------------------------------------------1---->
+  </thead>
+  <tbody>
+    <tr><!--------------------------------------------------------------------------------------2---->
+      <th scope="row" colspan="3">
+        <div class="mdc-layout-grid">
+<div class="mdc-card">
+  <img class="mr-3" src="imagen/profile.jpg" width="150px" height="150px">
+  <div class="mdc-card__media-content">
+    <h5 class="mt-0">Tristán Nathaniel Huerta Valdivia</h5>
+    Estudiante de Ing. tecnologías de la información y la comunicación
+    <br><small>Programación web</small>
+  </div>
+</div>
+        </div>
+      </th>
+    </tr><!--------------------------------------------------------------------------------------2---->
+    <tr>
+      <th scope="row" colspan="3">
+        <div>
+          <!--------------------------------------------------------------------------------------3---->
+          <div class="col-md-4 offset-sm-4">
+    <br>
+      <form class="" name="Enviarr" action="pagina1.html" method="get">
+
+
+        <label for="nombre">Nombre</label><br>
+        <label class="mdc-text-field mdc-text-field--filled">
+        <input  class="mdc-text-field__input" type="text" name="nombre" value="" placeholder="Solo letras" minlength="8" maxlength="32" pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,48}" required>
+        <span class="mdc-line-ripple"></span>
+          </label>
+        <br>
+        <label for="nombre">Apellido</label><br>
+        <label class="mdc-text-field mdc-text-field--filled">
+        <input  class="mdc-text-field__input" type="text" name="apellido" value="" placeholder="Solo letras" minlength="8" maxlength="32" pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,48}" required>
+        <span class="mdc-line-ripple"></span>
+          </label>
+        <br>
+        <label for="nombre">Usuario</label><br>
+        <label class="mdc-text-field mdc-text-field--filled">
+        <input type="text" class="mdc-text-field__input" id="inlineFormInputGroup" minlength="8" maxlength="32">
+        <span class="mdc-line-ripple"></span>
+          </label>
+        <br>
+        
+          <div class="form-row align-items-center">
+            <div class="col-auto my-1">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="autoSizingCheck2">
+                <label class="form-check-label" for="autoSizingCheck2">
+                  Alumno activo
+                </label>
+              </div>
+            </div>
+          </div>
+        
+        <br>
+        <label for="nombre">Numero de control</label><br>
+        <label class="mdc-text-field mdc-text-field--filled">
+        <input  class="mdc-text-field__input" type="text" name="numero-de-control" value="" minlength="8" maxlength="32" required>
+        <span class="mdc-line-ripple"></span>
+          </label>
+        <br>
+        
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email</label><br>
+            <label class="mdc-text-field mdc-text-field--filled">
+            <input type="email" class="mdc-text-field__input" id="exampleInputEmail1" aria-describedby="emailHelp" minlength="8" maxlength="32">
+            <span class="mdc-line-ripple"></span>
+          </label>
+          </div>
+        
+        <label for="contraseña">Password</label><br>
+        <label class="mdc-text-field mdc-text-field--filled">
+        <input class="mdc-text-field__input" type="password" name="password" value="" required minlength="8" maxlength="32">
+        <span class="mdc-line-ripple"></span>
+          </label>
+        <br>
+        <label for="nombre">Address</label><br>
+        <label class="mdc-text-field mdc-text-field--filled">
+        <input  class="mdc-text-field__input" type="text" name="address" value="" minlength="4" maxlength="40" size="40" required>
+        <span class="mdc-line-ripple"></span>
+          </label>
+        <br>
+        <label for="nombre">Zip</label><br>
+        <label class="mdc-text-field mdc-text-field--filled">
+        <input  class="mdc-text-field__input" type="number" name="zip" value="" minlength="4" maxlength="32" required>
+        <span class="mdc-line-ripple"></span>
+          </label>
+        <br>
+        <label for="nombre">Ciudad</label><br>
+        <label class="mdc-text-field mdc-text-field--filled">
+        <input  class="mdc-text-field__input" type="text" name="ciudad" value="" placeholder="Solo letras" minlength="4" pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,48}" required>
+        <span class="mdc-line-ripple"></span>
+          </label>
+        <br>
+                <label for="nombre">State</label><br>
+        <div class="input-group mb-3">
+          <select class="custom-select" id="inputGroupSelect01">
+            <option value="1">Aguascalientes</option>
+            <option value="2">Baja California</option>
+            <option value="3">Baja California Sur</option>
+            <option value="4">Campeche</option>
+            <option value="5">Coahuila</option>
+            <option value="6">Colima</option>
+            <option value="7">Chiapas</option>
+            <option value="8">Chihuahua</option>
+            <option value="9">Guanajuato</option>
+            <option value="10">Guerrero</option>
+            <option value="11">Hidalgo</option>
+            <option value="12">Jalisco</option>
+            <option value="13">México</option>
+            <option value="14">Michoacán</option>
+            <option value="15">Morelos</option>
+            <option value="16">Nayarit</option>
+            <option value="17">Nuevo León</option>
+            <option value="18">Oaxaca</option>
+            <option value="19">Puebla</option>
+            <option value="20">Querétaro</option>
+            <option value="21">Quintana Roo</option>
+            <option value="22">San Luis Potosí</option>
+            <option value="23">Sinaloa</option>
+            <option value="24">Sonora</option>
+            <option value="25">Tabasco</option>
+            <option value="26">Tamaulipas</option>
+            <option value="27">Tlaxcala</option>
+            <option value="28">Veracruz</option>
+            <option value="29">Yucatán</option>
+            <option value="30">Zacatecas</option>
+            <option value="31">Durango</option>
+            <option value="32">Distrito Federal</option>
+          </select>
+        </div>
+        
+        <label for="nombre">Color favorito</label><br>
+        <label class="mdc-text-field mdc-text-field--filled">
+        <input class="col-md-12 offset-sm-0" type="color" name="color-favorito" value="" required>
+        <span class="mdc-line-ripple"></span>
+          </label>
+        <br><br>
+        <label for="nombre">Fecha de nacimiento</label><br>
+        <label class="mdc-text-field mdc-text-field--filled">
+        <input  class="mdc-text-field__input" type="date" name="fecha-de-nacimiento" value="" required>
+        <span class="mdc-line-ripple"></span>
+          </label>
+      <br><br>
+          <div class="form-row align-items-center">
+            <div class="col-auto my-1">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="autoSizingCheck2" required>
+                <label class="form-check-label" for="autoSizingCheck2">Acepto Terminos y Condiciónes</label>
+              </div>
+            </div>
+          </div>
+      
+        <br>
+        <div style="text-align: center;">
+        <input class="mdc-button mdc-button--raised" type="submit" onclick="prueba()" name="" value="Enviar" align="center" >
+        </div>
+        </form>
+      
+    </div>
+  </div>
+</div>
+          <!--------------------------------------------------------------------------------------3---->
+        <br></div>
+      </th>
+    </tr>
+    <tr>
+      <th scope="row" colspan="3" class="text-white bg-dark">
+        <div style="text-align: center;" >
+          <div class="container">
+          <div class="row">
+          <div class="col">Instituto Tecnológico de Pabellón de Arteaga</div>
+          <div class="col">Todos los derechos reservados</div>
+         </div>
+         </div>
+        </div>
+      </th>
+    </tr>
+  </tbody>
+</table>
+<!------------------------------------------------------------------------------------------>
+<script type="text/javascript">
+  function prueba(){
+    //alert("Hola mundo");
+    //document.Enviarr.submit();
+  }
+
+</script>
+</body>
+</html>

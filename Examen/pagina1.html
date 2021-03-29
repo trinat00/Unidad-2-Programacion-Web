@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Página 1 | Bootstrap</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1, maximun-scale=1">
+<meta name="description" content="Examen unidad 2">
+<meta name="author" content="Tristán N. Huerta">
+<meta name="keywords" content="Programación Web">
+<link href="estilo1/css/bootstrap.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <a class="nav-link active" aria-current="page" href="pagina1.html">Bootstrap</a>
+    </div>
+    <div class="col">
+      <a class="nav-link" href="pagina2.html">Material Design</a>
+    </div>
+    <div class="col">
+      <a class="nav-link" href="pagina3.html">Sin Framework</a>
+    </div>
+  </div>
+</div>
+<!------------------------------------------------------------------------------------------>
+<table class="table table-bordered">
+  <thead>
+    <tr><!--------------------------------------------------------------------------------------1---->
+      <th scope="col">
+        <span class="badge badge-primary">Colores</span>
+        <br><br>
+        <span class="badge badge-dark">Dark</span>
+        <br>
+        <span class="badge badge-primary">Primary</span>
+        <br>
+        <span class="badge badge-secondary">Secondary</span>
+      </th>
+      <th scope="col">
+        <div style="text-align: center;">
+          <span class="badge badge-primary">Tema de diseño</span>
+        </div>
+        <div>
+          <h4>Descripción:</h4>
+        </div>
+        <div>
+          <h6>Todo este diseño es parte del paquete de Bootstrap 4.0<br>
+          por ello quiza no coincidan con versiónes mas recientes</h6>
+        </div>
+      </th>
+      <th scope="col">
+        <div style="text-align: center;">
+          <span class="badge badge-primary">Unidad II - Marzo 2021</span>
+        </div>
+        <div>
+          <h4>Descripción:</h4>
+        </div>
+        <div>
+          <h6>Programación web<br> Profesor: Eduardo Flores Gallegos</h6>
+        </div>
+      </th>
+    </tr><!--------------------------------------------------------------------------------------1---->
+  </thead>
+  <tbody>
+    <tr><!--------------------------------------------------------------------------------------2---->
+      <th scope="row" colspan="3">
+        <div class="col-md-4 offset-sm-4">
+<div class="media">
+  <img class="mr-3" src="imagen/profile.jpg" width="50%" height="50%">
+  <div class="media-body">
+    <h5 class="mt-0">Tristán Nathaniel Huerta Valdivia</h5>
+    Estudiante de Ing. tecnologías de la información y la comunicación
+    <br><small>Programación web</small>
+  </div>
+</div>
+        </div>
+      </th>
+    </tr><!--------------------------------------------------------------------------------------2---->
+    <tr>
+      <th scope="row" colspan="3">
+        <div>
+          <!--------------------------------------------------------------------------------------3---->
+          <div class="col-md-4 offset-sm-4">
+    <br>
+      <form class="" name="Enviarr" action="pagina1.html" method="get">
+
+        <label for="nombre">Nombre</label>
+        <input  class="form-control" type="text" name="nombre" value="" placeholder="Solo letras" minlength="8" maxlength="32" pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,48}" required>
+        <br>
+        <label for="nombre">Apellido</label>
+        <input  class="form-control" type="text" name="apellido" value="" placeholder="Solo letras" minlength="8" maxlength="32" pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,48}" required>
+        <br>
+        <label for="nombre">Usuario</label>
+
+            <div class="form-row align-items-center">
+              <div class="col-auto">
+                <label class="sr-only"></label>
+                <div class="input-group mb-2">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text">@</div>
+                  </div>
+                  <input type="text" class="form-control" id="inlineFormInputGroup" minlength="8" maxlength="32">
+                </div>
+              </div>
+            </div>
+          
+        <br>
+        
+          <div class="form-row align-items-center">
+            <div class="col-auto my-1">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="autoSizingCheck2">
+                <label class="form-check-label" for="autoSizingCheck2">
+                  Alumno activo
+                </label>
+              </div>
+            </div>
+          </div>
+        
+        <br>
+        <label for="nombre">Numero de control</label>
+        <input  class="form-control" type="text" name="numero-de-control" value="" minlength="8" maxlength="32" required>
+        <br>
+        
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" minlength="8" maxlength="32">
+          </div>
+        
+        <label for="contraseña">Password</label>
+        <input class="form-control" type="password" name="password" value="" required minlength="8" maxlength="32">
+        <br>
+        <label for="nombre">Address</label>
+        <input  class="form-control" type="text" name="address" value="" minlength="4" maxlength="40" size="40" required>
+        <br>
+        <label for="nombre">Zip</label>
+        <input  class="form-control" type="number" name="zip" value="" minlength="4" maxlength="32" required>
+        <br>
+        <label for="nombre">Ciudad</label>
+        <input  class="form-control" type="text" name="ciudad" value="" placeholder="Solo letras" minlength="4" pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,48}" required>
+        <br>
+                <label for="nombre">State</label>
+        <div class="input-group mb-3">
+          <select class="custom-select" id="inputGroupSelect01">
+            <option value="1">Aguascalientes</option>
+            <option value="2">Baja California</option>
+            <option value="3">Baja California Sur</option>
+            <option value="4">Campeche</option>
+            <option value="5">Coahuila</option>
+            <option value="6">Colima</option>
+            <option value="7">Chiapas</option>
+            <option value="8">Chihuahua</option>
+            <option value="9">Guanajuato</option>
+            <option value="10">Guerrero</option>
+            <option value="11">Hidalgo</option>
+            <option value="12">Jalisco</option>
+            <option value="13">México</option>
+            <option value="14">Michoacán</option>
+            <option value="15">Morelos</option>
+            <option value="16">Nayarit</option>
+            <option value="17">Nuevo León</option>
+            <option value="18">Oaxaca</option>
+            <option value="19">Puebla</option>
+            <option value="20">Querétaro</option>
+            <option value="21">Quintana Roo</option>
+            <option value="22">San Luis Potosí</option>
+            <option value="23">Sinaloa</option>
+            <option value="24">Sonora</option>
+            <option value="25">Tabasco</option>
+            <option value="26">Tamaulipas</option>
+            <option value="27">Tlaxcala</option>
+            <option value="28">Veracruz</option>
+            <option value="29">Yucatán</option>
+            <option value="30">Zacatecas</option>
+            <option value="31">Durango</option>
+            <option value="32">Distrito Federal</option>
+          </select>
+        </div>
+        
+        <label for="nombre">Color favorito</label><br>
+        <input class="col-md-12 offset-sm-0" type="color" name="color-favorito" value="" required>
+        <br><br>
+        <label for="nombre">Fecha de nacimiento</label>
+        <input  class="form-control" type="date" name="fecha-de-nacimiento" value="" required>
+      
+          <div class="form-row align-items-center">
+            <div class="col-auto my-1">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="autoSizingCheck2" required>
+                <label class="form-check-label" for="autoSizingCheck2">
+                  Acepto Terminos y Condiciónes
+                </label>
+              </div>
+            </div>
+          </div>
+      
+        <br>
+        <div style="text-align: center;">
+        <input class="btn btn-primary" type="submit" onclick="prueba()" name="" value="Enviar" align="center" >
+        </div>
+        </form>
+      
+    </div>
+  </div>
+</div>
+          <!--------------------------------------------------------------------------------------3---->
+        <br></div>
+      </th>
+    </tr>
+    <tr>
+      <th scope="row" colspan="3" class="text-white bg-dark">
+        <div style="text-align: center;" >
+          <div class="container">
+          <div class="row">
+          <div class="col">Instituto Tecnológico de Pabellón de Arteaga</div>
+          <div class="col">Todos los derechos reservados</div>
+         </div>
+         </div>
+        </div>
+      </th>
+    </tr>
+  </tbody>
+</table>
+<!------------------------------------------------------------------------------------------>
+<script type="text/javascript">
+  function prueba(){
+    //alert("Hola mundo");
+    //document.Enviarr.submit();
+  }
+
+</script>
+</body>
+</html>
